@@ -29,7 +29,9 @@ namespace Login_Lab
             while (run == true)
             {
                 List<string> Email = new List<string>();
-                Console.Write("Please enter a valid email address: ");
+                Console.WriteLine("Please enter an email address in this format.");
+                Console.WriteLine("validate@email.com");
+                Console.Write("Email: ");
                 string userEmail = Console.ReadLine();
                 Email.Add(userEmail);
                 try
